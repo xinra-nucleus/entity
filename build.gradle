@@ -24,12 +24,16 @@ jar {
 
 repositories {
     mavenCentral()
+    maven { url "http://dl.bintray.com/xinra/nucleus" }
 }
 
 dependencies {
-    compile 'com.google.guava:guava:19.0'
+    compile 'com.xinra.nucleus:nucleus-common:0.1.0'
+    compile 'com.google.guava:guava:21.0'
     compile 'org.codehaus.groovy:groovy:2.4.7'
     compileOnly 'javax.persistence:persistence-api:1.0.2'
+    compile 'org.springframework.data:spring-data-commons:1.12.6.RELEASE'
+    compile 'org.springframework:spring-context:4.3.5.RELEASE'
     testCompile group: 'junit', name: 'junit', version: '4.+'
 }
 
