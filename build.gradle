@@ -41,11 +41,11 @@ publish {
     userOrg = 'xinra'
     repoName = 'nucleus'
     groupId = 'com.xinra.nucleus'
-    artifactId = 'entity'
+    artifactId = 'nucleus-entity'
     publishVersion = '0.1.0'
-    licences = ['MIT']
+    licences = ['BSD 3-Clause']
     desc = 'Nucleus entity layer'
-    website = 'https://github.com/xinra-nucleus/entity'
+    website = 'https://github.com/xinra-nucleus/nucleus-entity'
 }
 
 sourceSets {
