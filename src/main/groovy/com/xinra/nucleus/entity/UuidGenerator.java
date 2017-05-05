@@ -4,7 +4,7 @@ import java.util.UUID;
 import org.springframework.stereotype.Component;
 
 /**
- * Generates a random UUIDs to be used as entity IDs.
+ * Generates random UUIDs to be used as entity IDs.
  * 
  * @author Erik Hofer
  */
